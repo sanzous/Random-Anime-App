@@ -30,4 +30,4 @@ function getAnime() {
 //     while (i <= 3) {
 //         getAnime();
 //     }
-// }
+// }GI
