@@ -1,0 +1,43 @@
+body {
+    background-image: url(/images/1761712.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding: 0 45%;
+    background: #fff;
+    width: 50%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.card {
+    padding: 1% 1%;
+    border: 5px solid #fff;
+    margin: 0 50%;
+    border-radius: 5rem;
+    background-color: #fff;
+}
+
+.get {
+    margin: 0 50%;
+
+}
