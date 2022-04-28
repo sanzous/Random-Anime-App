@@ -12,12 +12,12 @@ function fetchAnime() {
             data = _data;
             console.log(data);
             const temp = document.createElement('div');
-            temp.className = 'card' + i
+            temp.className = `card ${i}`
             const tempImg = document.createElement('img');
             tempImg.className = 'newImg'
             tempImg.src = data.data.images.jpg.image_url;
             document.getElementsByClassName('container')[0].appendChild(temp);
-            document.getElementsByClassName('card' + i)[0].appendChild(tempImg);
+            document.getElementsByClassName(`card ${i}`)[0].appendChild(tempImg);
             i++;
 
 
