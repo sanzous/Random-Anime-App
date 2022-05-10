@@ -5,40 +5,7 @@ body {
 
 }
 
-/* header {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
-h1 {
-    padding: 0 45%;
-    background: #fff;
+.carousel-item img {
     width: 50%;
-
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-img {
-    height: 300px;
-    width: 300px;
-    object-fit: contain;
-}
-
-.card {
-    padding: 1% 1%;
-    border: 5px solid #fff;
-    margin: 0 50%;
-    border-radius: 5rem;
-    background-color: #fff;
-    width: 200px;
-}
-
-.get {
-    margin: 0 50%;
-
+    height: 500px;
 }

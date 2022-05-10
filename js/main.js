@@ -1,6 +1,6 @@
 
 
-document.querySelector('.get').addEventListener('click', fetchAnime);
+document.querySelector('.btn').addEventListener('click', fetchAnime);
 
 let data;
 let i = 0;
@@ -12,11 +12,11 @@ function fetchAnime() {
             data = _data;
             console.log(data);
             const temp = document.createElement('div');
-            temp.className = `card ${i}`
+            temp.className = `card ${i} carousel-item`
             const tempImg = document.createElement('img');
-            tempImg.className = 'newImg'
+            tempImg.className = 'newImg d-block '
             tempImg.src = data.data.images.jpg.image_url;
-            document.getElementsByClassName('container')[0].appendChild(temp);
+            document.getElementsByClassName('carousel-inner')[0].appendChild(temp);
             document.getElementsByClassName(`card ${i}`)[0].appendChild(tempImg);
             i++;
 
